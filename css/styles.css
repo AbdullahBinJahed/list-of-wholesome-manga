@@ -1,0 +1,40 @@
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  font-size: 10px;
+}
+
+h1 {
+  font-size:5em;
+}
+
+p {
+  font-size:3em;
+}
+
+td{
+  width:50%;
+  height:auto;
+}
+
+.mangaName{
+  color:#222222;
+  font-size:2em;
+  font-weight:bold;
+  font-family:sans-serif;
+  text-align:left;
+  max-height:2em;
+  min-height:2em;
+  overflow:auto;
+}
+
+.mangaCover{
+  width:100%;
+  height:auto;
+  border-radius:10px;
+  min-height:45em;
+  max-height:45em;
+}
