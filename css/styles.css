@@ -91,12 +91,6 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-	/*.mangaContainer {
-		clear: left;
-		width: 90%;
-		padding-left: 10%;
-	}*/
-	
 	.mangaName {
 		font-size: 0.8rem;
 	}
@@ -115,8 +109,6 @@ p {
 			width: 30%;
 			padding-left: 2%;
 		}
-		
-		
 		
 		.mangaContainer:nth-child(2n-1) {
 			clear: none;
