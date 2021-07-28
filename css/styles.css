@@ -90,7 +90,7 @@ p {
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
 	.mangaContainer {
 		clear: left;
 		width: 90%;
@@ -100,4 +100,34 @@ p {
 	.wrapper h2 {
 		font-size: 2rem;
 	}
+}
+
+@media screen and (min-width: 1200px) {
+	  .mangaListContainer {
+	  	margin-left: 13%;
+	  }
+	
+		.mangaContainer {
+			width: 30%;
+			padding-left: 2%;
+		}
+		
+		
+		
+		.mangaContainer:nth-child(2n-1) {
+			clear: none;
+			margin-right: 0px;
+		}
+		
+		.mangaContainer:nth-child(3n+4) {
+			clear: left;
+		}
+		
+		.mangaName {
+			height: 6rem;
+		}
+	
+		.wrapper h2 {
+			font-size: 5rem;
+		}
 }
