@@ -1,72 +1,103 @@
 body {
-  padding-top: 50px;
-  background-color:#121212;
+	padding-top: 50px;
+	background-color: #121212;
+
+	font-size: 100%;
 }
 
 .starter-template {
-  padding: 40px 15px;
-  font-size: 10px;
-}
-
-h1 {
-  font-size:5em;
+	padding: 20px 15px;
 }
 
 p {
-  font-size:3em;
+	font-size: 0.1rem;
 }
 
-td{
-  width:50%;
-  height:auto;
+.mangaListContainer {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.mangaName{
-  color:White;
-  font-size:2em;
-  font-weight:bold;
-  font-family:sans-serif;
-  text-align:left;
-  max-height:3em;
-  min-height:3em;
-  overflow:auto;
+.mangaContainer {
+	width: 46%;
+	height: 68%;
+
+	float: left;
 }
 
-.mangaCover{
-  width:100%;
-  height:auto;
-  border-radius:10px;
-  min-height:45em;
-  max-height:45em;
+.mangaContainer:nth-child(2n-1) {
+	clear: left;
+	margin-right: 8%;
 }
 
-.wrapper h2{
-  margin: 0;
-  line-height: 1;
-  font-size:5em;
-  color: transparent;
-  text-transform: uppercase;
-  background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #E4A82F, #10C3B2);
-  -webkit-background-clip: text;
-  animation: animate 5s linear infinite;
-  -webkit-background-size: 500%;
-  background-size: 500%;
-  text-align: center;
+.mangaCover {
+	border-radius: 10px;
+
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1 / 1.5;
 }
- @keyframes animate{
-   0%{
-	 background-position: 0 100%;
-   }
-   25%{
-	 background-position: 50% 0;
-   }
-   50%{
-	 background-position: 100% 0;
-   }
-   75%{
-	 background-position: 0 50%;
-   }
-   100%{
-	 background-position: 0 100%;
-   }
- }
+
+.mangaName {
+	color: White;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	overflow: auto;
+
+	margin-bottom: 5%;
+}
+
+.wrapper h2 {
+	margin: 0;
+	line-height: 1;
+	font-size: 4rem;
+	color: transparent;
+	text-transform: uppercase;
+	background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #E4A82F, #10C3B2);
+	-webkit-background-clip: text;
+	animation: animate 5s linear infinite;
+	-webkit-background-size: 500%;
+	background-size: 500%;
+	text-align: center;
+
+	margin-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0 100%;
+	}
+
+	25% {
+		background-position: 50% 0;
+	}
+
+	50% {
+		background-position: 100% 0;
+	}
+
+	75% {
+		background-position: 0 50%;
+	}
+
+	100% {
+		background-position: 0 100%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.mangaContainer {
+		clear: left;
+		width: 80%;
+		padding-left: 20%;
+	}
+
+	.wrapper h2 {
+		font-size: 2.5rem;
+	}
+}
