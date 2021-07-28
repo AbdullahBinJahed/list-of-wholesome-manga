@@ -93,11 +93,11 @@ p {
 @media screen and (max-width: 800px) {
 	.mangaContainer {
 		clear: left;
-		width: 80%;
-		padding-left: 20%;
+		width: 90%;
+		padding-left: 10%;
 	}
 
 	.wrapper h2 {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 }
